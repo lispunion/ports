@@ -1,0 +1,73 @@
+= Lisp Ports
+
+== Mission
+
+=== Job 1: Coverage
+
+Port
+
+* as many open source implementations as we can
+* of as many Lisp dialects as we can
+* to as many operating systems
+* and computer architectures
+* and package managers as we can.
+
+=== Job 2: Uniformity
+
+Make every implementation have the same command names and package
+names in all package managers so that cross-platform development and
+deployment is easy. Also strive to make installation directories and
+installed libraries and documentation uniform as far as feasible.
+
+=== Job 3: Libraries
+
+Fill in the gaps so the OS interfaces work as well as possible on all
+platforms.
+
+== Status
+
+=== Common Lisp
+
+[options="header,footer"]
+|=======================
+|Implementation|Windows|MacOS|Linux|FreeBSD|OpenBSD|NetBSD
+|ABCL||||||
+|CLISP||||||
+|CMUCL||||||
+|ECL||||||
+|GCL||||||
+|SBCL||||||
+|=======================
+
+=== Scheme
+
+[options="header,footer"]
+|=======================
+|Implementation|Windows|MacOS|Linux|FreeBSD|OpenBSD|NetBSD
+|Bigloo||||||
+|Chez||||||
+|Chibi||||||
+|Chicken||||||
+|Cyclone||||||
+|Foment||||||
+|Gambit||||||
+|Gauche||||||
+|Gerbil||||||
+|Guile||||||
+|Ikarus||||||
+|IronScheme||||||
+|Kawa||||||
+|Larceny||||||
+|MIT Scheme||||||
+|Scheme48||||||
+|SCSH||||||
+|Ypsilon||||||
+|=======================
+
+=== Clojure
+
+[options="header,footer"]
+|=======================
+|Implementation|Windows|MacOS|Linux|FreeBSD|OpenBSD|NetBSD
+|Clojure/JVM||||||
+|=======================
